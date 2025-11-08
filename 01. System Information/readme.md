@@ -33,11 +33,12 @@ Memahami metadata sistem (distro, kernel, arsitektur, proses, user, network, dan
 
 Digunakan untuk mengidentifikasi detail sistem.
 
-
+```bash
 # Basic system information
 hostname
 uname -a
 ps aux
+```
 
 ### 🔹 User Enumeration
 Melihat user, hak akses, dan history command.
