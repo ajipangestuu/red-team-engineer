@@ -18,12 +18,21 @@ Memahami metadata sistem (distro, kernel, arsitektur, proses, user, network, dan
 
 ## Checklist (Konseptual)
 
-- [ ] Catat versi distro & kernel
-- [ ] Identifikasi proses kritikal dan service
-- [ ] Enumerasi user & permission
-- [ ] Observasi konfigurasi jaringan
-- [ ] Periksa keberadaan credential/password
-- [ ] Cek konsistensi update/patch management
+📋 Daftar Isi
+- [System Enumeration](#system-enumeration)
+- [User Enumeration](#user-enumeration)
+- [Network Enumeration](#network-enumeration)
+- [Password Enumeration](#password-enumeration)
+- [Automated Tools](#automated-tools)
+- [Kernel Exploit](#kernel-exploit)
+- [Escalation via Stored Passwords](#escalation-via-stored-passwords)
+- [Escalation via Weak File Permissions](#escalation-via-weak-file-permissions)
+- [Escalation via SSH Keys](#escalation-via-ssh-keys)
+- [SUDO Exploitation](#sudo-exploitation)
+- [SUID Exploitation](#suid-exploitation)
+- [Capabilities Exploitation](#capabilities-exploitation)
+- [Cron Jobs Exploitation](#cron-jobs-exploitation)
+- [NFS Exploitation](#nfs-exploitation)
 
 ---
 
@@ -286,5 +295,7 @@ chmod +s /tmp/1/x
 /tmp/x
 ```
 
+⚠️ Disclaimer
+Teknik-teknik ini hanya untuk keperluan penetration testing yang sah dan educational purposes. Selalu dapatkan izin tertulis sebelum melakukan testing pada sistem yang bukan milik Anda.
 
 
