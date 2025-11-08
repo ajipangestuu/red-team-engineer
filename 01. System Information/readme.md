@@ -34,9 +34,10 @@ Memahami metadata sistem (distro, kernel, arsitektur, proses, user, network, dan
 Digunakan untuk mengidentifikasi detail sistem.
 
 
-hostname        # Menampilkan nama host
-uname -a        # Menampilkan kernel, versi, arsitektur
-ps aux          # Menampilkan daftar proses yang sedang berjalan
+# Basic system information
+hostname
+uname -a
+ps aux
 
 ### 🔹 User Enumeration
 Melihat user, hak akses, dan history command.
